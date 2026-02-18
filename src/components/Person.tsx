@@ -1,12 +1,6 @@
-import React from 'react'
 
 
-type PersonType = {
-    name: {
-        firstName: string,
-        lastName: string
-    }
-}
+import type { PersonType } from './PersonTypes';
 
 const Person = ({ name }: PersonType) => {
   return (

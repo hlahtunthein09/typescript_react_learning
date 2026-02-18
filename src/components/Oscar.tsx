@@ -6,7 +6,7 @@ type OscarProps = {
 const Oscar = ({ children } : OscarProps) => {
   return (
     <div>
-        <h2>{children}</h2>
+        {children}
     </div>
   )
 }
